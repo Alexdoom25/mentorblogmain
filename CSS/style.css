@@ -1,0 +1,108 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *b::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+}
+p,h1{
+    font-size: 16px;
+    padding-left: 10px;
+    margin: 5px;
+}
+.contenedor{
+    max-width: 30%;
+    margin: auto;
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 15px 16px 0px 0px hsl(0, 0%, 7%);
+    border: 2px solid hsl(0, 0%, 7%);
+}
+@media(max-width: 3072px) {
+    .contenedor{
+     max-width: 12%;
+    }
+ }
+@media(max-width: 1440px) {
+    .contenedor{
+     max-width: 30%;
+    }
+ }
+@media(max-width: 1280px) {
+    .contenedor{
+     max-width: 28.5%;
+    }
+ }
+@media(max-width: 768px) {
+    .contenedor{
+     max-width: 50%;
+    }
+ }
+@media(max-width: 390px) {
+   .contenedor{
+    max-width: 80%;
+   }
+}
+
+svg{
+    margin:10px 10px;
+    border-radius: 15px;
+}
+@media(max-width: 390px) {
+   svg{
+    display: block;
+    width: 90%;
+    border-radius: 40px;
+   }
+}
+div.button{
+    text-align: center;
+}
+.button p{
+    font-weight: bold;
+    background-color:hsl(47, 88%, 63%);
+    border-radius: 5px;
+    width: 20%;
+    margin: 10px 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+@media(max-width: 390px) {
+    .button p{
+        width: 30%;
+    }
+}
+.date p{
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.encabezado h1{
+    color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+img{
+    width: 35px;
+    height: 35px;
+}
+.avatar{
+    margin: 20px;
+    display: flex;
+}
+.avatar p{
+    font-weight: 700;
+}
+
+.attribution{
+    padding-top: 15px;
+    color: black;
+    text-decoration: none;
+}
